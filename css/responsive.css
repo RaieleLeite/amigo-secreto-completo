@@ -1,0 +1,107 @@
+/* Responsividade geral */
+@media (max-width: 1200px) {
+  .content {
+    width: 85%;
+    padding: 60px;
+  }
+
+  .content__main {
+    padding: 80px 60px;
+    padding-top: 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .section__title {
+    font-size: 64px;
+  }
+
+  .content__main {
+    gap: 60px;
+    padding: 60px 40px;
+    padding-top: 120px;
+  }
+
+  .friends__container,
+  .div__trash {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    width: 95%;
+    padding: 40px;
+  }
+
+  .content__main {
+    padding: 40px 24px;
+    padding-top: 100px;
+    gap: 48px;
+  }
+
+  .form__input,
+  .button,
+  .friends__container,
+  .div__trash {
+    font-size: 18px;
+  }
+
+  .form__buttons {
+    gap: 24px;
+  }
+
+  .form__buttons > div {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .section--results {
+    flex-direction: column;
+    gap: 32px;
+  }
+
+  .section__title {
+    font-size: 48px;
+  }
+
+  .form__input {
+    height: 48px;
+  }
+
+  .img__trash {
+    width: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section__title {
+    font-size: 36px;
+  }
+
+  .form__label,
+  .friends__title,
+  .prizeDraw__title {
+    font-size: 18px;
+  }
+
+  .form__input::placeholder {
+    font-size: 18px;
+  }
+
+  .form__input,
+  .button {
+    font-size: 16px;
+  }
+
+  .button {
+    height: 44px;
+    padding: 12px 16px;
+  }
+
+  .prizeDraw__container,
+  .friends__container {
+    font-size: 16px;
+    padding: 16px;
+  }
+}
